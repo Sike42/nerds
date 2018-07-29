@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+
+  <url>
+    <loc>http://showabouttheshow.com/#page-top</loc>
+    <video:video>
+      <video:thumbnail_loc>https://sike42.blob.core.windows.net/videos/images/Trulive4.png</video:thumbnail_loc>
+      <video:title>July 15 Flavor of Tampa Bay Pool Party at Hotel Zamora. Victoria Walker from Truelive in the Studio with Ian Beckles and Anthony </video:title>
+      <video:description>Victoria Walker from Truelive in the Studio with Ian Beckles and Anthony  </video:description>
+      <video:content_loc>https://sike42.blob.core.windows.net/videos/Shows/IanBeckles/MCS_LIVE_20180706_100524_TRULIEVE.mp4</video:content_loc>
+      <video:duration>1139</video:duration>
+      <video:expiration_date>2020-11-05T19:20:30+08:00</video:expiration_date>
+      <video:rating>5</video:rating>
+      <video:publication_date>2018-07-29T19:20:30+08:00</video:publication_date>
+      <video:family_friendly>no</video:family_friendly>
+      <video:restriction relationship="allow">US CA GB IE</video:restriction>
+      <video:gallery_loc title=" Red Wanting Blue ">http://showabouttheshow.com/#page-top</video:gallery_loc>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>yes</video:live>
+    </video:video>
+  </url>
+
+</urlset>
+
+
