@@ -34,18 +34,22 @@
 	if ($(window).width() < 768) {
 	    // do something for small screens
 	    //  alert('small');
+		$('.navbar-collapse').collapse('hide'); 
 	}
 	else if ($(window).width() >= 768 &&  $(window).width() <= 992) {
     	    // do something for medium screens
 	    // alert('med');
+		$('.navbar-collapse').collapse('show'); 
 	}
 	else if ($(window).width() > 992 &&  $(window).width() <= 1200) {
 	    // do something for big screens
 	    // alert('large');
+		$('.navbar-collapse').collapse('show'); 
 	}
 	else  {
  	   // do something for huge screens
 	   //   alert('dont konow');
+		$('.navbar-collapse').collapse('show'); 
 	}
         }
         function myCollapse() { $('.navbar-collapse').collapse('hide');  }
@@ -80,7 +84,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 {'GTM-MG3GT9N':true});</script>
 
 </head>
-  <body id="page-top" onload="myFunc()" onresize="myResizeFunc()">
+  <body id="page-top"  onresize="myResizeFunc()">
 
 
 
