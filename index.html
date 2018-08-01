@@ -29,6 +29,25 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script>
         function myFunc() { $('.navbar-collapse').collapse('show');  }
+        function myResizeFunc() {  
+             
+	if ($(window).width() < 768) {
+	    // do something for small screens
+	    //  alert('small');
+	}
+	else if ($(window).width() >= 768 &&  $(window).width() <= 992) {
+    	    // do something for medium screens
+	    // alert('med');
+	}
+	else if ($(window).width() > 992 &&  $(window).width() <= 1200) {
+	    // do something for big screens
+	    // alert('large');
+	}
+	else  {
+ 	   // do something for huge screens
+	   //   alert('dont konow');
+	}
+        }
         function myCollapse() { $('.navbar-collapse').collapse('hide');  }
     	function formValidate() 	{ 
 	if (grecaptcha.getResponse() == ""){ alert("You can't proceed!"); }
@@ -61,7 +80,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 {'GTM-MG3GT9N':true});</script>
 
 </head>
-  <body id="page-top" onload="myFunc()">
+  <body id="page-top" onload="myFunc()" onresize="myResizeFunc()">
 
 
 
